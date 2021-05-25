@@ -92,4 +92,8 @@ btnHold.addEventListener('click', function () {
 // Rest the game
 btnNew.addEventListener('click', initt);
 
-console.log('Hello from Git');
+const newFeature = function () {
+  console.log('Welcome to the application');
+};
+
+newFeature();
